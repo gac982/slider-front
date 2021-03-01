@@ -1,0 +1,51 @@
+// pagina home
+.header
+    display: flex
+    flex-direction: column-reverse
+    align-items: center
+    justify-content: space-between
+    position: relative
+    .menu
+        position: absolute
+        bottom: -4rem
+        right: 4rem
+        background-color: $blanco
+        border-radius: .2rem
+        padding: 1.5rem
+        z-index: 10
+        display: flex
+        align-items: center
+        grid-gap: 1rem
+        .newBtn
+            width: 6rem
+            height: 6rem
+            transition: 1s all
+        .newBtn:hover
+            transform: translateY(-.8rem)
+    .landing
+        position: relative
+        width: 70rem
+        height: 30rem
+        margin: 1rem
+        border: 2rem solid $blanco
+        border-radius: .3rem
+        box-shadow: $sombra
+        .swiper-button-prev
+            top: 22rem
+            left: 56rem
+        .swiper-button-prev:after
+            font-size: .9rem
+            background-color: $blanco
+            width: 4rem
+            height: 3rem
+            padding: 1rem
+            right: 2rem
+        .swiper-button-next
+            top: 22rem
+            right: 5.5rem
+        .swiper-button-next:after
+            font-size: .9rem
+            background-color: $blanco
+            width: 4rem
+            height: 3rem
+            padding: 1rem
